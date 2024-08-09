@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Developer</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+             <a href="#home" class="active">Home</a>
+             <a href="#about">About</a>
+             <a href="#education">Education</a>
+             <a href="#skills">Skill</a>
+             <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--home section design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Raziya khatoon</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a Frontend developer based in Madhya Pardesh, India.
+              I build WebApps and Websites using HTML, CSS, Tailwind CSS, 
+              JavaScript. Working for myself to improve my skills. Love to build clones.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/raziya-khatoon-57046a20b/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Raziya0818"><i class='bx bxl-github'></i></a>
+            </div>
+            
+            <a href="#skills" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="Raziya.jpg" alt="" >
+        </div>
+    </section>
+
+    <!--about section design-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Raziya.jpg" alt="" width="200px">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>I am a Frontend developer based in Madhya Pardesh, India. 
+                I am pursuing Bachelor Degree in Computer Science 
+                from Technocrats Institute Of Technology (Excellence) Bhopal. 
+                I am very passionate about improving my coding skills & developing 
+                applications & websites. I build WebApps and Websites using HTML, CSS, 
+                Tailwind CSS, JavaScript. Working for myself to improve my skills. Love to build clones.</p>
+
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--Education section design-->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2007 - 2014</div>
+                            <h3>Utkramit Madhyamik Vidhyalya Garbhaili Secondary School Katihar Bihar</h3>
+                            <p></p>
+
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2014 - 2019</div>
+                            <h3>M.B.T.A.ISLAMIA H/S - KATIHAR Bihar</h3>
+                            <p></p>
+
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bx-calendar'></i> 2019 - 2023</div>
+                            <h3>UnderGraduation - Technocrats Institute Of Technology (Excellence) Bhopal Madhya Pardesh</h3>
+                            <p>pursuing Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+                
+    <!-- skills section design -->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Java<span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills<span class="animate scroll" style="--i:5"></span></h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Frontend Development <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section design-->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+           <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+
+    <!--footer design-->
+    <footer>
+        <div class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by raziya || All Rights Reserved.</p>
+            </div>
+    
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Scorll reveal-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      
+    <script src="script.js"></script>
+</body>
+</html>
